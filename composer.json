@@ -1,0 +1,8 @@
+{
+    "require": {
+        "smalot/pdfparser": "^2.1"
+    },
+    "replace": {
+        "symfony/polyfill-mbstring": "~1.0"
+    }
+}
