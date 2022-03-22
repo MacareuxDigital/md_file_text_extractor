@@ -87,7 +87,7 @@ class Controller extends AttributeController
             $page = new FilePageTextValue();
             $page->setAttributeValue($av);
             $page->setPage($index);
-            $page->setText(UTF8::cleanup($text));
+            $page->setText($text);
             $av->getPages()->add($page);
         }
 
